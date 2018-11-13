@@ -1,0 +1,20 @@
+{
+    "name": "datvance/instagram-to-smugmug",
+    "description": "Backup Instragram media to SmugMug",
+    "type": "project",
+    "authors": [
+        {
+            "name": "dv",
+            "email": "datvance@gmail.com"
+        }
+    ],
+    "require": {
+        "raiym/instagram-php-scraper": "^0.8.24",
+        "splitbrain/php-cli": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Josheli\\": "src/"
+        }
+    }
+}
